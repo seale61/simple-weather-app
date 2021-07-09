@@ -1,6 +1,15 @@
 # simple-weather-app
 ## Full Stack Development Tutorial - Part 4 (stand-alone web app)
-While this app is part of a 4 part tutorial, it can be setup and used without having to complete the other 3 tutorials. 
+While this app is part of a 4 part tutorial, it can be setup and used without having to complete the other 3 tutorials.  
+
+## Installation
+If you don't have **git** installed, be sure to do this first. From a terminal command line, clone this repository by entering:   
+  
+    git clone https://github.com/seale61/weather-project-backend.git  
+  
+    cd weather-project-backend  
+    npm install  
+
 
 ## Prerequisits
 ### API Key
