@@ -52,7 +52,7 @@ export default {
 
     getForecastData: async function() {
 
-      let production = false;       // Set this variable to true for production, false for development
+      let production = true;       // Set this variable to true to use API, false to use test data
       let current_results = [];
       let one_call_results = [];
 
@@ -62,17 +62,27 @@ export default {
 
         let url = "https://api.openweathermap.org/data/2.5/weather?";
         let q_string = `lat=${this.latitude}&lon=${this.longitude}&units=imperial&appid=${weatherApiKey}`;
-
         url = url + q_string;
-        current_results = await this.$http.get(url);
-        current_results = current_results.data;
+
+        try { 
+          current_results = await this.$http.get(url);
+          current_results = current_results.data;
+        } catch(error) {
+          alert('An error has occured');
+          return;
+        }
 
         url = "https://api.openweathermap.org/data/2.5/onecall?";
         q_string = `lat=${this.latitude}&lon=${this.longitude}&exclude=minutely&units=imperial&appid=${weatherApiKey}`;
-
         url = url + q_string;
-        one_call_results = await this.$http.get(url);
-        one_call_results = one_call_results.data;
+
+        try {
+          one_call_results = await this.$http.get(url);
+          one_call_results = one_call_results.data;
+        } catch {
+          alert('An error has occurred');
+          return;
+        }
 
       } else {
 
