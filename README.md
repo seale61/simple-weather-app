@@ -12,4 +12,9 @@ In order to aid in testing and development, and so to avoid the need to constant
     let production = true;       // Set this variable to true to use the API, false to use test data  
 
 ### Create a .env file for your API key
-In the root folder of your project, create a file called ___***.env***___.
+In the root folder of your project, create a file called ___***.env***___ and enter the following line
+
+    VUE_APP_WEATHERKEY=ENTER_YOUR_API_KEY_HERE
+    
+
+   
