@@ -9,5 +9,5 @@ In order to access the APIs, you will need to create a free account and get an A
 ### Test data
 In order to aid in testing and development, and so to avoid the need to constantly access there APIs, there is a mixin included with this project (src/mixins/test-data.js) that contains test data. To use the test data instead of the API, navigate to src/views/Home.js amd find the function "getForecastData." The first line of code in this function sets a variable named ***production***. Set the value to ***true*** to use the APIs, and set it to ***false*** to use the test data.  
 
-    let production = true;       // Set this variable to true for production, false for development  
+    let production = true;       // Set this variable to true to use API, false to use test data  
 
