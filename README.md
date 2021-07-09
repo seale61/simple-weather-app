@@ -1,6 +1,6 @@
 # simple-weather-app
-## Full Stack Development Tutorial - Part 4
-While this app is part of a 4 part tutorial, it can be setup without having to complete the other 3 tutorials. 
+## Full Stack Development Tutorial - Part 4 (stand-alone web app)
+While this app is part of a 4 part tutorial, it can be setup and used without having to complete the other 3 tutorials. 
 
 ## Prerequisits
 ### API Key
@@ -11,3 +11,4 @@ In order to aid in testing and development, and so to avoid the need to constant
 
     let production = true;       // Set this variable to true to use the API, false to use test data  
 
+### Create a .env file for your API key
