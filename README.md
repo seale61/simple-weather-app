@@ -2,6 +2,9 @@
 ## Full Stack Development Tutorial - Part 4 (stand-alone web app)
 While this app is part of a 4-part tutorial, it can be setup and used without having to complete the other 3 tutorials.  
 
+## Functionality  
+This app provides current weather conditions for the geographical area you are currently in. It also provides a 7 day forecast as well weather warnings 
+
 ## Framework: Vue 2 + Vuetify
 ## Demo
 A working demonstration of this web application can be found [here](https://weather.sealeweb.com). This is a responsive app and works well on mobile devices.  
