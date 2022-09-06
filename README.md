@@ -7,7 +7,7 @@ This app provides current weather conditions for the geographical area you are c
 
 ## Framework: Vue 2 + Vuetify
 ## Demo
-A working demonstration of this web application can be found [here](https://weather.sealeweb.com). This is a responsive app and works well on mobile devices.  
+A working demonstration of this web application can be found [here](https://weather.infovitale.org). This is a responsive app and works well on mobile devices.  
 ## Installation
 If you don't have **git** installed, be sure to do this first. From a terminal command line, clone this repository by entering:   
   
